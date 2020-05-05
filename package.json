@@ -1,0 +1,15 @@
+{
+  "name": "e-lidar-irmao",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "now dev"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@now/node": "^1.5.1"
+  }
+}
