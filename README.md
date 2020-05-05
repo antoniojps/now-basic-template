@@ -1,6 +1,6 @@
-# Basic Now CLI API
+# Simple Now CLI API
 
-Bootstrap a serveless typescript API project to deploy at now.
+The simplest possible serverless node API to deploy at Vercel.
 
 ## Getting Started
 
