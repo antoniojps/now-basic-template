@@ -41,9 +41,11 @@ now --target production
 
 The base configuration is at `now.json`, it instructs now to build all the files within the api folder with `@now/node`.
 
+To use javascript instead of typescript change `"api/**/*.ts"` to `"api/**/*.js"`.
+
 ```json
 {
-  "builds": [{ "src": "api/**/*.[tj]s", "use": "@now/node" }]
+  "builds": [{ "src": "api/**/*.ts", "use": "@now/node" }]
 }
 ```
 
